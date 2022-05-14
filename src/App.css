@@ -1,0 +1,42 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+}
+
+/*
+The className ''.light-bulb' (defined in the component light-bulb.jsx) contains just
+the minimum CSS code to render an empty gray 
+circle to pose as a light bulb.
+We now need a button to toggle the background-color
+to something like yellow to indicate that is either
+ON or OFF.
+
+*/
+
+.light-bulb {
+  margin-right: auto ;
+  margin-left: auto;  
+  
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: lightgray;
+  border: solid black;
+  
+}
+
+.light-bulb-on {
+  background-color: yellow;
+}
+
+/*I can´t make them get closer, I tried 
+getting margin bottom for lightbulb to 0 and margin top
+for .toggle-this to 0 */
+
+.toggle-this{
+  
+  width: 100%;
+  height: 50px;
+  
+}
