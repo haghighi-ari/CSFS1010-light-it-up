@@ -13,7 +13,7 @@ to the opposite the next time the button is used (clicked on)
 I think that:
 That information that is generated from the Switch component
 (Is the ligth currently ON or OFF?),
-needs to be passed to the light-bulb component? Please Dave clarify this
+needs to be passed to the light-bulb component? Please Dave clarify this || UPDATE: This 'info' will be saved as state (using: useState hook)
 */
 
 

@@ -25,7 +25,7 @@ ON or OFF.
   border: solid black;
   
 }
-
+/*This '.light-bulb-on' class will be rendered conditionally, and the condition is defined at light-bulb.jsx rith after the let classes variable*/
 .light-bulb-on {
   background-color: yellow;
 }
