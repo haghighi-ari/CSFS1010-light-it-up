@@ -1,7 +1,8 @@
-main {
+remain {
+  background-color: salmon;
   text-align: center;
-  vertical-align: center;
-  line-height: 100vh
+  vertical-align: center; 
+  /*line-height: 100vh*/  /*This made impossible to get the bulb and the button closer*/
 }
 
 /*
@@ -15,8 +16,9 @@ ON or OFF.
 */
 
 .light-bulb {
-  margin-right: auto ;
-  margin-left: auto;  
+  margin: auto;  
+  margin-top: 5%;
+  padding: 50px;
   
   height: 200px;
   width: 200px;
@@ -25,7 +27,7 @@ ON or OFF.
   border: solid black;
   
 }
-/*This '.light-bulb-on' class will be rendered conditionally, and the condition is defined at light-bulb.jsx rith after the let classes variable*/
+/*This '.light-bulb-on' class will be rendered conditionally, and the condition is defined at light-bulb.jsx rigth after the let classes variable*/
 .light-bulb-on {
   background-color: yellow;
 }
@@ -35,7 +37,7 @@ getting margin bottom for lightbulb to 0 and margin top
 for .toggle-this to 0 */
 
 .toggle-this{
-  
+  margin-top: 5%;
   width: 100%;
   height: 50px;
   

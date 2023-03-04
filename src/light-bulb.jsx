@@ -7,10 +7,13 @@ See '.light-bulb' at App.css to look what styles
 were applied to create the "light bulb".
 */
 
-const LightBulb = (props) =>{
+// destructing syntax can be used to simplify props parameter
+// function is called to re-render when props change
+const LightBulb = ({on}) =>{
 
   let classes = "light-bulb";
-  if(props.on) classes += " light-bulb-on";
+  // append class when light is on
+  if(on) classes = classes + " light-bulb-on";
 
   
   return(
